@@ -2,11 +2,11 @@
 Brackets extension base project with ES Harmony.  The idea is that you can have a starting point for your Brackets extension that you are looking to write in ES Harmony.
 
 
-Brackets-Harmony has serveral [gulp](http://gulpjs.com/) tasks that leverage tools such as [babeljs](https://babeljs.io/) and [browserify](http://browserify.org/) to transpile your code written in ES Harmony to good ole ES5, so that your code can happily run in Brackets.
+Brackets-Harmony has several [gulp](http://gulpjs.com/) tasks that leverage tools such as [babeljs](https://babeljs.io/) and [browserify](http://browserify.org/) to transpile your code written in ES Harmony to good ole ES5, so that your code can happily run in Brackets.
 
 
 #### React JSX
-[bablejs](https://babeljs.io/) natively supports tranpiling [react's jsx](https://facebook.github.io/react/docs/jsx-in-depth.html), so you can easily write your components using [react](http://facebook.github.io/react/) using jsx syntax.
+[babeljs](https://babeljs.io/) natively supports transpiling [react's jsx](https://facebook.github.io/react/docs/jsx-in-depth.html), so you can easily write your components using [react](http://facebook.github.io/react/) using jsx syntax.
 
 #### Gulp tasks
 
@@ -16,7 +16,7 @@ The build system uses [gulp](http://gulpjs.com/), and below are the available ta
 
 
 ##### package
-Compiles all source files, and creates a zip file in the `dist` folder that can be consumed by Brackets.  The generated zip file contains the `pacjage.json` for the project.
+Compiles all source files, and creates a zip file in the `dist` folder that can be consumed by Brackets.  The generated zip file contains the `package.json` for the project.
 
 ```
 gulp package
