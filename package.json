@@ -1,12 +1,17 @@
 {
-  "name": "command-line",
+  "name": "harmony",
   "version": "0.0.1",
-  "description": "Command Line in Brackets",
+  "description": "Brackets extension base project with ES Harmony",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Miguel Castillo <manchagnu@gmail.com>",
+  "homepage": "https://github.com/MiguelCastillo/Brackets-Harmony",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/MiguelCastillo/Brackets-Harmony.git"
+  },
   "license": "MIT",
   "devDependencies": {
     "babelify": "^6.0.2",

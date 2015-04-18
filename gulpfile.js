@@ -106,6 +106,6 @@ function serve() {
     .pipe(webserver({
       livereload: true,
       directoryListing: true,
-      open: 'index.html'
+      open: true
     }));
 }

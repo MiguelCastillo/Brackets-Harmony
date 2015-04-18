@@ -1,4 +1,4 @@
-// highjack the root module so that we can use for loading
+// highjack the root module so that we can use it for loading
 // stylesheets via loadStyleSheet.
 import './_module';
 
