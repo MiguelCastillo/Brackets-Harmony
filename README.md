@@ -55,3 +55,6 @@ Then you normally just run `build`, `package`, or `watch`.
 ```
 gulp build
 ```
+
+#### Screenshot
+<img src="https://raw.githubusercontent.com/MiguelCastillo/Brackets-Harmony/master/img/screenshot.png" width="320px"/>
