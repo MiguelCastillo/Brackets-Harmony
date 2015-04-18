@@ -6,7 +6,7 @@ Brackets-Harmony has serveral [gulp](http://gulpjs.com/) tasks that leverage too
 
 
 #### React JSX
-[bablejs](https://babeljs.io/) natively supports tranpiling [react's jsx](https://facebook.github.io/react/docs/jsx-in-depth.html), so you can easily write your components using [react](http://facebook.github.io/react/) using jsx syntax.
+[babeljs](https://babeljs.io/) natively supports tranpiling [react's jsx](https://facebook.github.io/react/docs/jsx-in-depth.html), so you can easily write your components using [react](http://facebook.github.io/react/) using jsx syntax.
 
 #### Gulp tasks
 
