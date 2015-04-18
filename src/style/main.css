@@ -1,3 +1,20 @@
-#command-line {
-  background-color: black;
+#harmony-container {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.harmony {
+  background-color: white;
+  color: black;
+}
+
+.dark .harmony {
+  background-color: grey;
+  color: white;
+}
+
+.CodeMirror .CodeMirror-scroll {
+  padding-top: 19px;
 }

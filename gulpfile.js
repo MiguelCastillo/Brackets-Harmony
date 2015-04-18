@@ -74,7 +74,9 @@ function createJSBundler() {
     basedir: 'src',
     extensions: ['jsx']
   })
-  .transform(babelify)
+  .transform(babelify.configure({
+    optional: ["reactCompat"]
+  }))
   .require('./main', {entry: true});
 }
 

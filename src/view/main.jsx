@@ -1,16 +1,21 @@
-import _module from '../_module';
 var ExtensionUtils = brackets.getModule("utils/ExtensionUtils");
+var React          = brackets.getModule("thirdparty/react");
 
-class Main {
-  constructor(options = {}) {
-    this.$el = options.$el || $("<div>");
-    console.log(_module.get().uri);
-    ExtensionUtils.loadStyleSheet(_module.get(), 'style/main.css');
-  }
+import _module from '../_module';
 
-  sayHi() {
-    console.log("Hello");
-  }
+function componentDidMount() {
+  ExtensionUtils.loadStyleSheet(_module.get(), 'style/main.css');
 }
 
-export default Main;
+function render() {
+  return (
+    <div className="harmony">
+      Hello, world!
+    </div>
+  );
+}
+
+export default React.createClass({
+  componentDidMount,
+  render
+});
