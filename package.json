@@ -30,6 +30,7 @@
     "watchify": "^3.1.1"
   },
   "browser": {
-    "_module": "./src/_module.js"
+    "_module": "./helper/_module.js",
+    "appReady": "./helper/appReady.js"
   }
 }
