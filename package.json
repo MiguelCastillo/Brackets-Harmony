@@ -2,7 +2,6 @@
   "name": "harmony",
   "version": "0.0.1",
   "description": "Brackets extension base project with ES Harmony",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
