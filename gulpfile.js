@@ -97,14 +97,12 @@ function createJSBundler() {
   return browserify({
       debug: true,
       basedir: 'src',
+      entries: ['./main'],
       extensions: ['jsx']
     })
     .transform(babelify.configure({
       optional: ["reactCompat"]
-    }))
-    .require('./main', {
-      entry: true
-    });
+    }));
 }
 
 

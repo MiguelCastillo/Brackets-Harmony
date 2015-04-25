@@ -29,5 +29,8 @@
     "merge-stream": "^0.1.7",
     "vinyl-source-stream": "^1.1.0",
     "watchify": "^3.1.1"
+  },
+  "browser": {
+    "_module": "./src/_module.js"
   }
 }

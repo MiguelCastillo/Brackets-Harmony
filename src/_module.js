@@ -1,22 +1,24 @@
 var _module;
+var $deferred = $.Deferred();
 
 class Module {
   get() {
     return _module;
   }
-  set(mod) {
-    _module = mod;
-    return _module;
+
+  ready(cb) {
+    var promise = $deferred.promise;
+    return typeof cb === 'function' ? promise.then(cb) : promise;
   }
 }
 
-var singleton = new Module();
-export default singleton;
+export default new Module();
 
 
-// If there is AMD, then we try to highjack the root module
+// If there is AMD, then we highjack the root module
 if (typeof(define) === 'function' && define.amd) {
   define(function (require, exports, module) {
-    singleton.set(module);
+    _module = module;
+    $deferred.resolve(_module);
   });
 }
