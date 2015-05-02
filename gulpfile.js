@@ -1,4 +1,4 @@
-var source = require("vinyl-source-stream");
+var source = require('vinyl-source-stream');
 var gulp = require('gulp');
 var gulputil = require('gulp-util');
 var zip = require('gulp-zip');
@@ -101,7 +101,7 @@ function createJSBundler() {
       extensions: ['jsx']
     })
     .transform(babelify.configure({
-      optional: ["reactCompat"]
+      optional: ['reactCompat']
     }));
 }
 

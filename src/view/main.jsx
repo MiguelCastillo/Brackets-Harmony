@@ -1,7 +1,7 @@
 import _module from '_module';
 
-var ExtensionUtils = brackets.getModule("utils/ExtensionUtils");
-var React          = brackets.getModule("thirdparty/react");
+var ExtensionUtils = brackets.getModule('utils/ExtensionUtils');
+var React          = brackets.getModule('thirdparty/react');
 
 function componentDidMount() {
   ExtensionUtils.loadStyleSheet(_module.get(), 'style/main.css');
