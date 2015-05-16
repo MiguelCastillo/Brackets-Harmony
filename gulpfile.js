@@ -100,9 +100,7 @@ function createJSBundler() {
       entries: ['./main'],
       extensions: ['jsx']
     })
-    .transform(babelify.configure({
-      optional: ['reactCompat']
-    }));
+    .transform(babelify);
 }
 
 
