@@ -13,8 +13,8 @@ appReady(() => {
   // Your ready callback is when the application is ready
   var container = $('<div id="harmony-container">').appendTo('.main-view > .content')[0];
 
-  React.renderComponent(
-    <MainView/>,
+  React.render(
+    <MainView />,
     container
   );
 });
